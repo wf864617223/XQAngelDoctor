@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">安琪儿医生</string>
+    <string name="loading">loading....</string>
+    <!-- MainActivity -->
+    <string name="userinfo">个人中心</string>
+    <string name="reporting_week">一周报告</string>
+    <string name="my_patient">我的病人</string>
+    <string name="my_appointment">我的预约</string>
+    <string name="see_patient">查找病人</string>
+    <string name="now_deal">今日待办</string>
+    <string name="inspect_name">检查人 :</string>
+    <string name="inspect_title">检查名称 :</string>
+    <string name="inspect_time">检查时间 :</string>
+    <string name="inspect_explain">检查说明 :</string>
+    <string name="report_time">出报告时间 :</string>
+    <string name="prompt">提示 :</string>
+    <string name="system">系统 :</string>
+    <!-- UserinfoActivity -->
+    <string name="home">首页</string>
+    <string name="change_password">设置本机号码</string>
+    <string name="feedback">意见反馈</string>
+    <string name="about">关于我们</string>
+    <string name="exit">退出登录</string>
+    <string name="doc_code">医师代码 :</string>
+    <!-- ChangePasswordActivity -->
+    <string name="cancel">取消</string>
+    <string name="finish">完成</string>
+    <string name="original_password">原始密码 :</string>
+    <string name="new_password">输入密码 :</string>
+    <string name="enter_again">再次输入 :</string>
+    <!-- FeedbackActivity -->
+    <string name="commit">提交</string>
+    <string name="input_feedback">您的建议是我们做的更好的动力!</string>
+    <!-- 显示消息通知 -->
+    <string name="back">返回</string>
+    <string name="msg_list">消息列表</string>
+    <!-- 我的病人 -->
+    <string name="today_already">今日到院</string>
+    <string name="member">会员用户</string>
+    <string name="not_member">非会员用户</string>
+    <string name="birthday">出生日期 :</string>
+    <!-- 我的预约 -->
+    <string name="morning">上午</string>
+    <string name="afternoon">下午</string>
+    <string name="appoint_date">预约日期</string>
+    <!-- 今日预约 -->
+    <string name="now_appointment">今日预约</string>
+    <string name="already_deal">已就诊</string>
+    <string name="wait_deal">待就诊</string>
+    <string name="appoint_time">预约时间</string>
+    <string name="age">年龄 :</string>
+    <string name="sex">性别 :</string>
+    <!-- 病人报告列表 -->
+    <string name="inspection_record">检查记录</string>
+    <string name="menzhenbingli">门诊病历</string>
+    <string name="main_doctor">主治医师 :</string>
+    <string name="doctor_name">医生姓名 :</string>
+    <string name="doctor_num">医生代号 :</string>
+    <string name="history">过去史 :</string>
+    <string name="family_history">家族病史 :</string>
+    <string name="allergy_history">过敏史 :</string>
+    <string name="zhushu">主述 :</string>
+    <string name="remark">备注 :</string>
+    <string name="related_note">相关说明</string>
+    <string name="normal">未见异常</string>
+    <string name="unnormal">异常</string>
+    <string name="un_deal">未处理</string>
+    <string name="_normal">常规</string>
+    <!-- 登录 -->
+    <string name="login">登录</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="input_username">请输入用户名</string>
+    <string name="input_password">请输入密码</string>
+    <string name="support">技术支持 : 成都睿峰科技有限公司</string>
+    <string name="copyright">版权所有 : 成都西区安琪儿妇产医院有限公司</string>
+</resources>

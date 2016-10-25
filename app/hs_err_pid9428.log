@@ -1,0 +1,111 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 176128 bytes for card table expansion
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_windows.cpp:3212), pid=9428, tid=9592
+#
+# JRE version:  (7.0_45-b18) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.45-b08 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000245e000):  JavaThread "Unknown thread" [_thread_in_vm, id=9592, stack(0x0000000002620000,0x0000000002720000)]
+
+Stack: [0x0000000002620000,0x0000000002720000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000245e000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=9592, stack(0x0000000002620000,0x0000000002720000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x000000013f5b0000 - 0x000000013f5e3000 	C:\Program Files\Java\jdk1.7.0_45\bin\java.exe
+0x0000000077050000 - 0x00000000771f8000 	C:\windows\SYSTEM32\ntdll.dll
+0x0000000076df0000 - 0x0000000076f0f000 	C:\windows\system32\kernel32.dll
+0x000007fefcfa0000 - 0x000007fefd00c000 	C:\windows\system32\KERNELBASE.dll
+0x000007fefeab0000 - 0x000007fefeb8b000 	C:\windows\system32\ADVAPI32.dll
+0x000007fefed10000 - 0x000007fefedaf000 	C:\windows\system32\msvcrt.dll
+0x000007fefedb0000 - 0x000007fefedcf000 	C:\windows\SYSTEM32\sechost.dll
+0x000007fefd670000 - 0x000007fefd79d000 	C:\windows\system32\RPCRT4.dll
+0x0000000076cf0000 - 0x0000000076dea000 	C:\windows\system32\USER32.dll
+0x000007fefdc30000 - 0x000007fefdc97000 	C:\windows\system32\GDI32.dll
+0x000007fefd400000 - 0x000007fefd40e000 	C:\windows\system32\LPK.dll
+0x000007fefd300000 - 0x000007fefd3c9000 	C:\windows\system32\USP10.dll
+0x000007fefaf70000 - 0x000007fefb164000 	C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_fa3b1e3d17594757\COMCTL32.dll
+0x000007feff2d0000 - 0x000007feff341000 	C:\windows\system32\SHLWAPI.dll
+0x000007fefd3d0000 - 0x000007fefd3fe000 	C:\windows\system32\IMM32.DLL
+0x000007fefee60000 - 0x000007fefef69000 	C:\windows\system32\MSCTF.dll
+0x000000005d740000 - 0x000000005d812000 	C:\Program Files\Java\jdk1.7.0_45\jre\bin\msvcr100.dll
+0x000000006df30000 - 0x000000006e6f9000 	C:\Program Files\Java\jdk1.7.0_45\jre\bin\server\jvm.dll
+0x000007fef2ab0000 - 0x000007fef2ab9000 	C:\windows\system32\WSOCK32.dll
+0x000007feff280000 - 0x000007feff2cd000 	C:\windows\system32\WS2_32.dll
+0x000007feff350000 - 0x000007feff358000 	C:\windows\system32\NSI.dll
+0x000007fefcc10000 - 0x000007fefcc4b000 	C:\windows\system32\WINMM.dll
+0x0000000077210000 - 0x0000000077217000 	C:\windows\system32\PSAPI.DLL
+0x0000000058f30000 - 0x0000000058f3f000 	C:\Program Files\Java\jdk1.7.0_45\jre\bin\verify.dll
+0x0000000055b80000 - 0x0000000055ba8000 	C:\Program Files\Java\jdk1.7.0_45\jre\bin\java.dll
+0x0000000055b60000 - 0x0000000055b75000 	C:\Program Files\Java\jdk1.7.0_45\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Djava.awt.headless=true -Xmx1024M -Dfile.encoding=GBK -Duser.country=CN -Duser.language=zh -Duser.variant 
+java_command: com.android.dx.command.Main --dex --force-jumbo --num-threads=4 --output C:\Users\Android\Desktop\snv\AngelDoctor\app\build\intermediates\pre-dexed\debug\com.davemorrissey.labs-subsampling-scale-image-view-3.5.0_fa6717a8b504ae07ee08bbd8cd795322a09174e3.jar C:\Users\Android\Desktop\snv\AngelDoctor\app\build\intermediates\exploded-aar\com.davemorrissey.labs\subsampling-scale-image-view\3.5.0\jars\classes.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.7.0_45
+CLASSPATH=.;C:\Program Files\Java\jdk1.7.0_45\lib\dt.jar;C:\Program Files\Java\jdk1.7.0_45\lib\tools.jar;
+PATH=C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_45\bin;D:\sdk\tools;D:\sdk\platform-tools;D:\apache-ant-1.9.4\bin;C:\Program Files\Java\jdk1.7.0_45\bin; ;C:\Program Files (x86)\Common Files\ThinPrint\;E:\android-ndk-r10c;E:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin
+USERNAME=Android
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 45 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 6 model 45 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 8313796k(1253116k free), swap 8311944k(5236k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.45-b08) for windows-amd64 JRE (1.7.0_45-b18), built on Oct  8 2013 05:47:22 by "java_re" with unknown MS VC++:1600
+
+time: Thu Jun 30 15:17:06 2016
+elapsed time: 0 seconds
+

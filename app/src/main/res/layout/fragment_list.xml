@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rimi.angel.angeldoctor.widget.RefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refresh_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/listview_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</com.rimi.angel.angeldoctor.widget.RefreshLayout>

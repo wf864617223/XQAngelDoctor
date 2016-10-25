@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Android\Desktop\AngelDoctor\GeneralUpdateLib\assets"><file name="checkvercode.json" path="C:\Users\Android\Desktop\AngelDoctor\GeneralUpdateLib\assets\checkvercode.json"/></source><source path="C:\Users\Android\Desktop\AngelDoctor\GeneralUpdateLib\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="C:\Users\Android\Desktop\AngelDoctor\GeneralUpdateLib\build-types\release\assets"/></dataSet></merger>

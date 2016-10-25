@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Android\\Desktop\\AngelDoctor\\GeneralUpdateLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Android\\Desktop\\AngelDoctor\\GeneralUpdateLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Android\\Desktop\\AngelDoctor\\GeneralUpdateLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\btn_style_one_disabled.9.png",
+        "source": "C:\\Users\\Android\\Desktop\\AngelDoctor\\GeneralUpdateLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\btn_style_one_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Android\\Desktop\\AngelDoctor\\GeneralUpdateLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\dilog_info.png",
+        "source": "C:\\Users\\Android\\Desktop\\AngelDoctor\\GeneralUpdateLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dilog_info.png"
+    },
+    {
+        "merged": "C:\\Users\\Android\\Desktop\\AngelDoctor\\GeneralUpdateLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\btn_style_one_normal.9.png",
+        "source": "C:\\Users\\Android\\Desktop\\AngelDoctor\\GeneralUpdateLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\btn_style_one_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Android\\Desktop\\AngelDoctor\\GeneralUpdateLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\btn_style_one_pressed.9.png",
+        "source": "C:\\Users\\Android\\Desktop\\AngelDoctor\\GeneralUpdateLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\btn_style_one_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Android\\Desktop\\AngelDoctor\\GeneralUpdateLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\btn_style_one_focused.9.png",
+        "source": "C:\\Users\\Android\\Desktop\\AngelDoctor\\GeneralUpdateLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\btn_style_one_focused.9.png"
+    }
+]

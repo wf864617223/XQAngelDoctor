@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/more_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="more"
+        android:gravity="center"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal" />
+</FrameLayout>

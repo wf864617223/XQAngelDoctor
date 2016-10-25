@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.rimi.angel.angeldoctor"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.1.4"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'org.xutils:xutils:3.3.34'
+    compile 'com.jakewharton:butterknife:7.0.0'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.davemorrissey.labs:subsampling-scale-image-view:3.5.0'
+    compile 'com.kyleduo.switchbutton:library:1.4.1'
+    compile 'com.demievil.library:refreshlayout:1.0.0@aar'
+    //分块加载网络图片（大图）
+    compile files('src/main/libs/Volley.jar')
+    compile files('src/main/libs/CCP_REST_SDK_JAVA_v2.7r.jar')
+    compile project(':GeneralUpdateLib')
+    compile files('src/main/libs/pushservice-5.2.0.12.jar')
+}

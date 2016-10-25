@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="title_name">#2ea399</color>
+    <color name="title_backg">#11a8bb</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="text_color">#45d99f</color>
+    <color name="backg_one">#f3f3f3</color>
+    <color name="line">#dddddd</color>
+    <color name="main_list_text">#666666</color>
+    <color name="main_text">#1e1e1e</color>
+    <color name="single_line">#edeff1</color>
+    <color name="even_line">#f6f7f8</color>
+    <color name="tab_backg">#88d3dd</color>
+    <color name="isselect">#11a8bb</color>
+    <color name="edit_hint">#b9b9b9</color>
+    <color name="trans">#00ffffff</color>
+</resources>
